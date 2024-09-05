@@ -1,7 +1,9 @@
+@font-face { font-family: Chopsic; src: url('Chopsic.otf'); }
 body {
     font: bold 15px/1.5 "Calibri";
     color: white;
-    background-color: black;
+    background-color: #333333;
+    margin: 0px;
 }
 
 a:link {
@@ -25,7 +27,7 @@ a:active {
 }
 
 header {
-    background-color: #C1CFDA;
+    background-color: #333333;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,7 +35,7 @@ header {
 
 h1 {
     margin-left: 30px;
-    color: black;
+    color: white;
 }
 
 nav ul {
@@ -67,7 +69,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #424040;
+    background: linear-gradient(to bottom right, #E15554 0%, #ff0000 100%);
 }
 
 #main-hjem {
@@ -77,21 +79,25 @@ footer {
     font: normal 15px/1.5 "Calibri";
 }
 
+#hjem-sektion-2 {
+    background-color: #4C484A;
+}
+
 #hjem-titel-velkommen h2 {
     font: bold 45px/1.5 "Calibri";
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #20A4F3;
     top: 20px;
     position: relative;
 }
 
 #hjem-sektion-1 {
-    background-color: #20A4F3;
+    background-image: url("https://images.stockcake.com/public/1/6/d/16dbde00-5e5b-4a7c-b388-b2caa1b50da3/galactic-spiral-lights-stockcake.jpg");
+    background-size: cover;
 }
 
-.hjem-sektion-1-img {
+.hjem-sektion-3-img {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -101,7 +107,7 @@ footer {
     color: white;
 }
 
-.hjem-sektion-1-img img {
+.hjem-sektion-3-img img {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -121,33 +127,58 @@ footer {
         color: blue;
     }
 }
+.img2:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    border-radius: 15px;
+    .img1tekst {
+        color: blue;
+    }
+}
+.img3:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    border-radius: 15px;
+    .img1tekst {
+        color: blue;
+    }
+}
 
-.hjem-sektion-1-img-tekst {
+.hjem-sektion-3-img-tekst {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    background-size: 0;
+    size: 0;
 }
 
-.hjem-sektion-1-img-tekst a {
+.hjem-sektion-3-img-tekst a {
     position: relative;
     top: -168px;
     font-size: 140%;
 }
 
-.hjem-sektion-1-img-tekst a:nth-child(1) {
+.hjem-sektion-3-img-tekst a:nth-child(1) {
     right: 49px;
 }
 
-.hjem-sektion-1-img-tekst a:nth-child(3) {
+.hjem-sektion-3-img-tekst a:nth-child(3) {
     left: 49px;
 }
-
-#hjem-sektion-2 {
-    background-color: #;
+.hjem-sektion-3-tekst-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    opacity: 25%;
+    list-style: none;
+}
+.hjem-sektion-3-tekst-list li:nth-child(1):hover {
+    opacity: 100%;
+    transition: opacity 0.2s;
 }
 
-#hjem-sektion-3 {
-    background-color: #;
+#hjem-sektion-4 {
+    background-color: #3D403A;
 }
 
 .kontakt-liste {
