@@ -1,5 +1,13 @@
-@font-face { font-family: ProtestGuerrilla; src: url('ProtestGuerrilla-Regular.ttf'); }
-@font-face { font-family: Chopsic; src: url('Chopsic.otf'); }
+@font-face {
+    font-family: ProtestGuerrilla;
+    src: url('ProtestGuerrilla-Regular.ttf');
+}
+
+@font-face {
+    font-family: Chopsic;
+    src: url('Chopsic.otf');
+}
+
 body {
     font: bold 15px/1.5 "Calibri";
     color: white;
@@ -101,7 +109,7 @@ footer {
     top: 180px;
 }
 
-#hjem-sektion-1 p{
+#hjem-sektion-1 p {
     font: bold 30px/1.5 "Calibri";
     position: relative;
     left: 1000px;
@@ -130,6 +138,7 @@ footer {
     transition: background-color 0.2s;
     transition: color 0.2s;
 }
+
 #hjem-sektion-2 {
     background-color: #4C484A;
 }
@@ -169,22 +178,27 @@ footer {
     opacity: 0.8;
     transition: opacity 0.2s;
     border-radius: 15px;
+
     .img1tekst {
         color: blue;
     }
 }
+
 .img2:hover {
     opacity: 0.8;
     transition: opacity 0.2s;
     border-radius: 15px;
+
     .img1tekst {
         color: blue;
     }
 }
+
 .img3:hover {
     opacity: 0.8;
     transition: opacity 0.2s;
     border-radius: 15px;
+
     .img1tekst {
         color: blue;
     }
@@ -211,6 +225,7 @@ footer {
 .hjem-sektion-3-img-tekst a:nth-child(3) {
     left: 49px;
 }
+
 .hjem-sektion-3-tekst-list {
     display: flex;
     flex-direction: row;
@@ -218,6 +233,7 @@ footer {
     opacity: 25%;
     list-style: none;
 }
+
 .hjem-sektion-3-tekst-list li:nth-child(1):hover {
     opacity: 100%;
     transition: opacity 0.2s;
