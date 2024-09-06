@@ -1,3 +1,4 @@
+@font-face { font-family: ProtestGuerrilla; src: url('ProtestGuerrilla-Regular.ttf'); }
 @font-face { font-family: Chopsic; src: url('Chopsic.otf'); }
 body {
     font: bold 15px/1.5 "Calibri";
@@ -31,12 +32,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 h1 {
     margin-left: 30px;
     color: white;
-    font: normal 20px/1.5 'Chopsic';
+    font: normal 23px/1.5 'Bebas Neue';
+    margin-top: 35px;
 }
 
 nav ul {
@@ -47,6 +51,7 @@ nav ul {
     font: bold 17px/1.5 "Arial";
     color: black;
     margin-right: 30px;
+    margin-top: 0px;
 }
 
 .nav li:nth-child(1):hover {
@@ -80,6 +85,51 @@ footer {
     font: normal 15px/1.5 "Calibri";
 }
 
+#hjem-sektion-1 {
+    background-image: url("https://images.stockcake.com/public/1/6/d/16dbde00-5e5b-4a7c-b388-b2caa1b50da3/galactic-spiral-lights-stockcake.jpg");
+    background-size: cover;
+    margin-bottom: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hjem-sektion-1 h2 {
+    font: bold 70px/1.5 "Calibri";
+    position: relative;
+    left: 40px;
+    top: 180px;
+}
+
+#hjem-sektion-1 p{
+    font: bold 30px/1.5 "Calibri";
+    position: relative;
+    left: 1000px;
+    top: 20px;
+    margin-right: 1200px;
+}
+
+.button-sektion-1:link, .button-sektion-1:visited {
+    font: bold 20px/1.5 "Arial";
+    background-color: #A89F84;
+    color: white;
+    margin-right: 1740px;
+    margin-bottom: 270px;
+    position: relative;
+    left: 1000px;
+    top: 10px;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-sektion-1:hover, .button-sektion-1:active {
+    background-color: white;
+    color: black;
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+}
 #hjem-sektion-2 {
     background-color: #4C484A;
 }
@@ -91,11 +141,6 @@ footer {
     align-items: center;
     top: 20px;
     position: relative;
-}
-
-#hjem-sektion-1 {
-    background-image: url("https://images.stockcake.com/public/1/6/d/16dbde00-5e5b-4a7c-b388-b2caa1b50da3/galactic-spiral-lights-stockcake.jpg");
-    background-size: cover;
 }
 
 .hjem-sektion-3-img {
