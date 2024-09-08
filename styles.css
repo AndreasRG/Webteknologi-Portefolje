@@ -8,13 +8,6 @@
     src: url('Chopsic.otf');
 }
 
-body {
-    font: bold 15px/1.5 "Calibri";
-    color: white;
-    background-color: #333333;
-    margin: 0px;
-}
-
 a:link {
     text-decoration: none;
     color: white;
@@ -35,225 +28,271 @@ a:active {
     color: white;
 }
 
-header {
-    background-color: #333333;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
+@media screen and (min-width: 1650px) {
+    body {
+        font: bold 15px/1.5 "Calibri";
+        color: white;
+        background-color: #333333;
+        margin: 0;
+    }
 
-h1 {
-    margin-left: 30px;
-    color: white;
-    font: normal 23px/1.5 'Bebas Neue';
-    margin-top: 35px;
-}
+    header {
+        background-color: #333333;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    list-style: none;
-    font: bold 17px/1.5 "Arial";
-    color: black;
-    margin-right: 30px;
-    margin-top: 0px;
-}
+    h1 {
+        margin-left: 30px;
+        color: white;
+        font: normal 23px/1.5 'Chopsic';
+        margin-top: 35px;
+    }
 
-.nav li:nth-child(1):hover {
-    background-color: #caacac;
-    transition: background-color 0.2s;
-}
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        list-style: none;
+        font: bold 17px/1.5 "Arial";
+        color: black;
+        margin-right: 30px;
+        position: relative;
+        top: 8px;
+    }
 
-.nav li:nth-child(2):hover {
-    background-color: #caacac;
-}
+    .nav li:nth-child(1):hover {
+        background-color: #caacac;
+        transition: background-color 0.2s;
+    }
 
-.nav li:nth-child(3):hover {
-    background-color: #caacac;
-}
+    .nav li:nth-child(2):hover {
+        background-color: #caacac;
+    }
 
-.nav li:nth-child(4):hover {
-    background-color: #caacac;
-}
+    .nav li:nth-child(3):hover {
+        background-color: #caacac;
+    }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to bottom right, #E15554 0%, #ff0000 100%);
-}
+    .nav li:nth-child(4):hover {
+        background-color: #caacac;
+    }
 
-#main-hjem {
-}
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(to bottom, black 0%, grey 100%);
+    }
 
-#hjem-header {
-    font: normal 15px/1.5 "Calibri";
-}
+    .kontakt-liste {
+        font-size: 120%;
+        list-style: none;
+    }
 
-#hjem-sektion-1 {
-    background-image: url("https://images.stockcake.com/public/1/6/d/16dbde00-5e5b-4a7c-b388-b2caa1b50da3/galactic-spiral-lights-stockcake.jpg");
-    background-size: cover;
-    margin-bottom: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    .kontakt-liste li:nth-child(2):hover {
+        background-color: #caacac;
+        transition: background-color 0.2s;
+    }
 
-#hjem-sektion-1 h2 {
-    font: bold 70px/1.5 "Calibri";
-    position: relative;
-    left: 40px;
-    top: 180px;
-}
+    .kontakt-liste li:nth-child(3):hover {
+        background-color: #caacac;
+        transition: background-color 0.2s;
+    }
 
-#hjem-sektion-1 p {
-    font: bold 30px/1.5 "Calibri";
-    position: relative;
-    left: 1000px;
-    top: 20px;
-    margin-right: 1200px;
-}
+    #hjem-header {
+        font: normal 15px/1.5 "Calibri";
+    }
 
-.button-sektion-1:link, .button-sektion-1:visited {
-    font: bold 20px/1.5 "Arial";
-    background-color: #A89F84;
-    color: white;
-    margin-right: 1740px;
-    margin-bottom: 270px;
-    position: relative;
-    left: 1000px;
-    top: 10px;
-    padding: 20px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+    #hjem-sektion-1 {
+        background-image: url("https://images.stockcake.com/public/1/6/d/16dbde00-5e5b-4a7c-b388-b2caa1b50da3/galactic-spiral-lights-stockcake.jpg");
+        background-size: cover;
+    }
 
-.button-sektion-1:hover, .button-sektion-1:active {
-    background-color: white;
-    color: black;
-    transition: background-color 0.2s;
-    transition: color 0.2s;
-}
+    #hjem-sektion-1-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-#hjem-sektion-2 {
-    background-color: #4C484A;
-}
+    #hjem-sektion-1-1 h2 {
+        font: bold 70px/1.5 "Calibri";
+        position: relative;
+        left: 40px;
+        top: 180px;
+    }
 
-#hjem-titel-velkommen h2 {
-    font: bold 45px/1.5 "Calibri";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 20px;
-    position: relative;
-}
+    #hjem-sektion-1-1 p {
+        font: normal 20px/1.5 "Calibri";
+        position: relative;
+        right: 40px;
+        top: 260px;
+    }
 
-.hjem-sektion-3-img {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    position: relative;
-    text-align: center;
-    color: white;
-}
+    #hjem-sektion-1-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 
-.hjem-sektion-3-img img {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    width: 300px;
-    height: 300px;
-    box-shadow: 10px 10px 10px grey;
-    border-radius: 15px;
-}
+    .button-sektion-1:link, .button-sektion-1:visited {
+        font: normal 20px/1.5 "Calibri";
+        background-color: #A89F84;
+        color: white;
+        position: relative;
+        margin-right: 775px;
+        top: 100px;
+        padding: 12px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
 
+    .button-sektion-1:hover, .button-sektion-1:active {
+        background-color: white;
+        color: black;
+        transition: background-color 0.2s, color 0.2s;
+    }
 
-.img1:hover {
-    opacity: 0.8;
-    transition: opacity 0.2s;
-    border-radius: 15px;
+    #margin-hjem-sektion-1 {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 300px;
+        opacity: 0;
+    }
 
-    .img1tekst {
+    #hjem-sektion-2 {
+        font: bold 22px/1.5 "Calibri";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hjem-sektion-2 p {
+        margin-top: -10px;
+    }
+
+    #hjem-sektion-2 a {
+        text-decoration: #5E93AC underline;
+        color: #5E93AC;
+    }
+
+    #hjem-sektion-2 a:hover {
+        color: white;
+        text-decoration: white underline;
+        transition: color 0.2s, text-decoration 0.2s;
+    }
+
+    #hjem-sektion-3 {
+        background-color: #4C484A;
+    }
+
+    #hjem-titel-sektion-3 h2 {
+        font: bold 45px/1.5 "Calibri";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 20px;
+        position: relative;
+    }
+
+    .hjem-sektion-3-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .hjem-sektion-3-img img {
+        width: 300px;
+        height: 300px;
+        box-shadow: 10px 10px 10px grey;
+        border-radius: 15px;
+    }
+
+    .img1tekst > .img1 {
+        opacity: 0.8;
+        transition: opacity 0.2s;
+        border-radius: 15px;
+    }
+
+    .img1:hover {
+        opacity: 0.8;
+        transition: opacity 0.2s;
+        border-radius: 15px;
+    }
+
+    .img2:hover {
+        opacity: 0.8;
+        transition: opacity 0.2s;
+        border-radius: 15px;
+    }
+
+    .img3:hover {
+        opacity: 0.8;
+        transition: opacity 0.2s;
+        border-radius: 15px;
+    }
+
+    .img1:hover .tekst1 {
+        font: bold 40px/1.5 "Calibri";
         color: blue;
     }
-}
 
-.img2:hover {
-    opacity: 0.8;
-    transition: opacity 0.2s;
-    border-radius: 15px;
-
-    .img1tekst {
-        color: blue;
+    .hjem-sektion-3-img-tekst {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        background-size: 0;
     }
-}
 
-.img3:hover {
-    opacity: 0.8;
-    transition: opacity 0.2s;
-    border-radius: 15px;
-
-    .img1tekst {
-        color: blue;
+    .hjem-sektion-3-img-tekst a {
+        position: relative;
+        top: -168px;
+        font-size: 140%;
     }
-}
 
-.hjem-sektion-3-img-tekst {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    background-size: 0;
-    size: 0;
-}
+    .hjem-sektion-3-img-tekst a:nth-child(1) {
+        right: 49px;
+    }
 
-.hjem-sektion-3-img-tekst a {
-    position: relative;
-    top: -168px;
-    font-size: 140%;
-}
+    .hjem-sektion-3-img-tekst a:nth-child(3) {
+        left: 49px;
+    }
 
-.hjem-sektion-3-img-tekst a:nth-child(1) {
-    right: 49px;
-}
+    .hjem-sektion-3-tekst {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        opacity: 1;
+        list-style: none;
+        font: bold 20px/1.5 "Calibri";
+        position: relative;
+        top: -217p;
+    }
 
-.hjem-sektion-3-img-tekst a:nth-child(3) {
-    left: 49px;
-}
+    .tekst1 {
+        opacity: 1;
+    }
 
-.hjem-sektion-3-tekst-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    opacity: 25%;
-    list-style: none;
-}
+    .hjem-sektion-3-tekst a:nth-child(1) {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
 
-.hjem-sektion-3-tekst-list li:nth-child(1):hover {
-    opacity: 100%;
-    transition: opacity 0.2s;
-}
+    .hjem-sektion-3-tekst a:nth-child(2) {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
 
-#hjem-sektion-4 {
-    background-color: #3D403A;
-}
-
-.kontakt-liste {
-    font-size: 120%;
-    list-style: none;
-}
-
-.kontakt-liste li:nth-child(2):hover {
-    background-color: #caacac;
-    transition: background-color 0.2s;
-}
-
-.kontakt-liste li:nth-child(3):hover {
-    background-color: #caacac;
-    transition: background-color 0.2s;
+    .hjem-sektion-3-tekst a:nth-child(3) {
+        margin-left: 38px;
+        margin-right: 38px;
+    }
 }
