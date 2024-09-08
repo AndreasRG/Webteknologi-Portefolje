@@ -1,0 +1,13 @@
+let age;
+age = 21;
+let name = "Andreas RG";
+console.log(age);
+console.log(name);
+let schoolName = `KEA`;
+const isStudent = true;
+console.log(schoolName);
+console.log(`Hello my name is ${name} and I am ${age} years old.`);
+console.log(name.length);
+console.log(schoolName + name);
+console.log(isStudent);
+console.log(typeof schoolName);
